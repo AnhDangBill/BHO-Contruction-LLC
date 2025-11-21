@@ -57,6 +57,13 @@ header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(8px);
   .drawer.open { transform: translateX(0); }
 }
 
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+
 /* Hero */
 .hero { position: relative; }
 .hero-inner { display: grid; place-items: center; text-align: center;
