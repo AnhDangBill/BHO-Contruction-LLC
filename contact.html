@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RemodelCo — Full-Service Remodeling</title>
+  <meta name="description" content="Full-service interior & exterior home remodeling. Kitchens, baths, additions, and exteriors with honest communication and clean execution." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <nav class="nav container" aria-label="Primary">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">R</div>
+        <span>RemodelCo</span>
+      </div>
+      <button class="burger" aria-controls="mobile-drawer" aria-expanded="false" aria-label="Open menu">☰</button>
+      <div class="menu" role="menubar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Featured Projects</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="estimate.html" class="cta">Estimate</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+    </nav>
+    <aside id="mobile-drawer" class="drawer" aria-hidden="true">
+      <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Featured Projects</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="estimate.html" class="cta">Estimate</a>
+        <a href="contact.html" class="active">Contact</a>
+    </aside>
+  </header>
+
+
+  <main id="main">
+    <section class="hero hero-sub">
+      <div class="hero-inner container">
+        <h1>Contact</h1>
+        <p class="lead">We’d love to learn about your project.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-grid">
+        <div class="card body">
+          <h3>Get in touch</h3>
+          <p class="mt-1"><strong>Phone:</strong> 800-000-0000</p>
+          <p><strong>Email:</strong> hello@remodelco.test</p>
+          <p><strong>Office:</strong> 123 Main St, Suite 100, Your City, ST</p>
+          <p class="mt-2">Hours: Mon–Fri 9am–5pm</p>
+        </div>
+        <div class="card body">
+          <h3>Quick message</h3>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks for reaching out!');">
+            <div><label for="cname">Name</label><input id="cname" name="cname"></div>
+            <div><label for="cemail">Email</label><input id="cemail" name="cemail" type="email"></div>
+            <div><label for="cmsg">Message</label><textarea id="cmsg" name="cmsg" rows="4" placeholder="Tell us briefly about your project or question."></textarea></div>
+            <div class="mt-2"><button class="cta" type="submit">Send</button></div>
+          </form>
+        </div>
+        <div class="card">
+          <img src="assets/img/exterior-house.jpg" alt="Service area example home exterior">
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer>
+    <div class="container foot">
+      <div>
+        <div class="brand"><div class="logo" aria-hidden="true">R</div><span>RemodelCo</span></div>
+        <small class="mt-2">© <span id="year"></span> RemodelCo. All rights reserved.</small>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <div class="mt-1"><small>800-000-0000</small></div>
+        <div class="mt-1"><small>hello@remodelco.test</small></div>
+      </div>
+      <div>
+        <strong>Social</strong>
+        <div class="mt-1"><a href="#"><small>Facebook</small></a></div>
+        <div class="mt-1"><a href="#"><small>Instagram</small></a></div>
+        <div class="mt-1"><a href="#"><small>Google</small></a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
